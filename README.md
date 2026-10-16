@@ -16,8 +16,3 @@
   - input text
   - wallpaper -> masking(only some of the wallaper is generated)-> ascii wallpaper convertor
   - generates the wallpaper.png
-
-- dynamic :
-  - chunks of text/stream of chunks
-  - live wallpaper(masking) -> live ascii
-  - generates wallpaper00.png , wallpaper01.png ,... and so on based on number of frames
