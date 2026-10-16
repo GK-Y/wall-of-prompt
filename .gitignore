@@ -1,0 +1,21 @@
+# Local third-party library checkout
+/stb/
+
+# Build outputs
+/a.out
+/build/
+*.o
+*.obj
+*.exe
+
+# Local input and generated images
+/test_image.png
+/black_white_op.png
+
+# Editor and operating-system files
+/.vscode/
+/.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
