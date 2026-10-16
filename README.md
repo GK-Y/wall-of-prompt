@@ -9,3 +9,15 @@
 - so as the day does by the wallpaper is initially blank but slowly but surely it fills up letting us see the wallpaper finally
 
 - so v0 scoped version will be :
+
+- first lets just break down the project :
+
+- static :
+  - input text
+  - wallpaper -> masking(only some of the wallaper is generated)-> ascii wallpaper convertor
+  - generates the wallpaper.png
+
+- dynamic :
+  - chunks of text/stream of chunks
+  - live wallpaper(masking) -> live ascii
+  - generates wallpaper00.png , wallpaper01.png ,... and so on based on number of frames
